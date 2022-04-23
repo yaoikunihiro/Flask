@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <titele>My APP</titele>
+        <link
+          rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}"
+          />
+    </head>
+
+    <body>
+        {% if kuni %}
+        <h1>Name: {{ kuni }}</h1>
+        {% else %}
+        <h1>Name:</h1>
+        {% endif %}
+    </body>
+</html>

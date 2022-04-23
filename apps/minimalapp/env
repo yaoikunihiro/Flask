@@ -1,0 +1,10 @@
+FLASK_APP=app.py
+FLASK_ENV=development
+
+
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USE_TLS=True
+MAIL_USERNAME='raw.iujk.7820@gmail.com'
+MAIL_PASSWORD=[dnadmrfjyvroufla]
+MAIL_DEFAULT_SENDER=Flask <raw.iujk.7820@gmail.com>

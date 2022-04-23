@@ -1,0 +1,7 @@
+flask 
+Jinja2
+python-dotenv
+BeautifulSoup4
+flask-mail
+email-validator
+flask-debugtoolbar
