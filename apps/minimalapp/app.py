@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from flask_debugtoolbar import DebugToolbarExtension
 from flask_mail import Mail, Message
-
+# gfreiogjarei
 # url_for("static", filename="style.css")
 
 app = Flask(__name__)
